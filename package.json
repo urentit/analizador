@@ -1,0 +1,12 @@
+{
+  "name": "urentit-analizador",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Analizador de crédito U-RENT-IT — aplicación web (Vercel + Postgres + IA)",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@vercel/postgres": "^0.9.0"
+  }
+}
