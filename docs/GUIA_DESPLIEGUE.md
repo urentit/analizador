@@ -65,7 +65,7 @@ En el **Paso 1** del expediente hay un selector **Proveedor de IA**:
 
 Cómo obtener la clave de **Gemini** (gratis): entra a **aistudio.google.com** con una cuenta de Google de la empresa → *Get API key* → *Create API key* → copia la clave (empieza con `AIza...`) y pégala en el Paso 1.
 
-El campo **Modelo (opcional)** deja usar el modelo por defecto (`gemini-2.5-flash`). Solo cámbialo si Google renombra el modelo y aparece un error "modelo no encontrado (404)".
+El campo **Modelo (opcional)** deja usar el modelo por defecto (`gemini-3.6-flash`). Solo cámbialo si Google renombra el modelo y aparece un error "modelo no encontrado (404)".
 
 > Con Gemini gratis, **una sola cuenta de Google de la empresa** da servicio a todo el equipo del piloto: comparten esa misma clave. No hace falta que cada persona tenga la suya.
 

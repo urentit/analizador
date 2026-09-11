@@ -36,11 +36,11 @@ En **Settings → Environment Variables** agrega (Production y Preview):
 
 | Variable | Valor | Obligatoria |
 |---|---|---|
-| `GEMINI_API_KEY` | tu clave `AIza...` de Gemini | Sí |
+| `GEMINI_API_KEY` | tu clave de Gemini (empieza con `AIza` o `AQ.`) | Sí |
 | `APP_PASSWORD` | la contraseña que usará el equipo para entrar | Sí |
 | `AUTH_SECRET` | una cadena larga y aleatoria (firma la sesión) | Sí |
 | `IA_PROVIDER` | `gemini` (por defecto) o `anthropic` | No |
-| `GEMINI_MODEL` | `gemini-2.5-flash` (por defecto) | No |
+| `GEMINI_MODEL` | `gemini-3.6-flash` (por defecto) | No |
 | `ANTHROPIC_API_KEY` / `ANTHROPIC_MODEL` | solo si usas Claude | No |
 
 Para generar un `AUTH_SECRET`: en cualquier terminal `node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"`.
